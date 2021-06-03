@@ -23,7 +23,7 @@ in
 stdenv.mkDerivation {
   name = "solana-bin";
   src = solana-bin-src;
-  version = "1.6.7";
+  version = "1.6.11";
   autoPatchelfIgnoreMissingDeps = "1"; # lib_sgx_*.so libs seem non-essential
   nativeBuildInputs = [ autoPatchelfHook ];
   buildInputs = [
